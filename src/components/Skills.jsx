@@ -19,7 +19,7 @@ function SkillItem({ title, icon }) {
       ) : (
         <span className="text-3xl mb-2">{icon}</span>
       )}
-      <p className="text-sm font-bold text-center text-gray-900 dark:text-gray-200">
+      <p className="text-sm font-bold text-center ">
         {title}
       </p>
     </div>
@@ -38,7 +38,7 @@ SkillItem.defaultProps = {
 function SkillSection({ title, items }) {
   return (
     <div className="mb-12">
-      <h3 className="text-xl font-semibold mb-6 text-gray-800 dark:text-white">
+      <h3 className="text-xl font-semibold mb-6">
         {title}
       </h3>
       <div className="flex flex-wrap gap-6 justify-center">
@@ -103,7 +103,7 @@ function Skills({ header }) {
           transition={{ duration: 0.6 }}
         >
           <div className="max-w-6xl mx-auto px-4">
-            <div className="text-base sm:text-lg text-gray-700 dark:text-gray-300 mb-6 whitespace-pre-wrap">
+            <div className="text-base sm:text-lg  mb-6 whitespace-pre-wrap">
               <ReactMarkdown>{data.intro}</ReactMarkdown>
             </div>
 

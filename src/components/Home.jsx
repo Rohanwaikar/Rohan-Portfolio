@@ -35,7 +35,7 @@ function Home() {
       style={{ minHeight: 'calc(100vh - 64px)', paddingTop: '150px' }} // adjust if navbar is taller
     >
       <div>
-        <h1 className="text-6xl font-bold text-gray-900 dark:text-white">{data.name}</h1>
+        <h1 className="text-6xl font-bold ">{data.name}</h1>
 
         <div className="flex text-2xl mt-4 justify-center">
           <h2 className="mr-2">I&apos;m</h2>
