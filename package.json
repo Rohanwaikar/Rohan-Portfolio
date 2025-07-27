@@ -23,7 +23,6 @@
     "react-vertical-timeline-component": "^3.5.3",
     "styled-components": "^5.3.11",
     "typewriter-effect": "^2.18.2",
-    "vertical-timeline-component-for-react": "^1.0.7",
     "web-vitals": "^1.0.1",
     "webpack": "^5.64.4"
   },

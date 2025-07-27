@@ -9,9 +9,8 @@ import Header from './Header';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/education.css';
 
-function Education(props) {
+function Education({ header }) {
   const theme = useContext(ThemeContext);
-  const { header } = props;
   const [data, setData] = useState(null);
   const [width, setWidth] = useState('50vw');
   const [mode, setMode] = useState('VERTICAL_ALTERNATING');
@@ -61,25 +60,13 @@ function Education(props) {
               cardHeight={250}
               mode={mode}
               theme={{
-                primary: theme.accentColor,
-                secondary: theme.accentColor,
-                cardBgColor: theme.chronoTheme.cardBgColor,
-                cardForeColor: theme.chronoTheme.cardForeColor,
-                titleColor: theme.chronoTheme.titleColor,
+                primary: theme?.accentColor,
+                secondary: theme?.accentColor,
+                cardBgColor: theme?.chronoTheme?.cardBgColor,
+                cardForeColor: theme?.chronoTheme?.cardForeColor,
+                titleColor: theme?.chronoTheme?.titleColor,
               }}
-            >
-              <div className="chrono-icons">
-                {data.education.map((education) =>
-                  education.icon ? (
-                    <img
-                      key={education.icon.src}
-                      src={education.icon.src}
-                      alt={education.icon.alt}
-                    />
-                  ) : null
-                )}
-              </div>
-            </Chrono>
+            />
           </Container>
         </motion.div>
       ) : (
