@@ -72,7 +72,9 @@ function Skills({ header }) {
       })
       .then((res) => setData(res))
       .catch((err) => {
-        console.error('Failed to fetch skills:', err);
+        if (process.env.NODE_ENV === 'development') {
+          console.error('Failed to fetch skills:', err);
+        }
         setError(err);
       });
   }, []);

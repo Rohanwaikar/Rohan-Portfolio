@@ -15,7 +15,9 @@ function Home() {
         const json = await res.json();
         setData(json);
       } catch (err) {
-        console.error('Failed to fetch home data:', err);
+        if (process.env.NODE_ENV === 'development') {
+          console.error('Failed to fetch home data:', err);
+        }
       }
     };
 

@@ -19,7 +19,12 @@ function Education({ header }) {
     fetch(endpoints.education)
       .then((res) => res.json())
       .then((res) => setData(res))
-      .catch((err) => console.error(err));
+      .catch((err) => {
+        if (process.env.NODE_ENV === 'development') {
+          console.error('Failed to load education data:', err);
+        }
+        setData(null);
+      });
 
     const updateWidthAndMode = () => {
       const winWidth = window?.innerWidth;

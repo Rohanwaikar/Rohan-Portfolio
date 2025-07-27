@@ -38,7 +38,11 @@ function About(props) {
     fetch(endpoints.about)
       .then((res) => res.json())
       .then((res) => setData(res))
-      .catch((err) => console.error(err));
+      .catch((err) => {
+        if (process.env.NODE_ENV === 'development') {
+          console.error('Failed to fetch about data:', err);
+        }
+      });
   }, []);
 
   return (

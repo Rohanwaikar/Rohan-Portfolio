@@ -17,7 +17,11 @@ const Projects = ({ header }) => {
     fetch(endpoints.projects)
       .then((res) => res.json())
       .then((res) => setData(res))
-      .catch((err) => console.error('Failed to fetch projects:', err));
+      .catch((err) => {
+        if (process.env.NODE_ENV === 'development') {
+          console.error('Failed to fetch projects:', err);
+        }
+      });
   }, []);
 
   const numberOfItems = showMore && data ? data.length : 6;

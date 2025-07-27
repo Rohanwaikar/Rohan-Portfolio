@@ -20,7 +20,9 @@ function Experience({ header }) {
       .then((res) => res.json())
       .then((res) => setData(res.experiences || []))
       .catch((err) => {
-        console.error('Failed to load experiences:', err);
+        if (process.env.NODE_ENV === 'development') {
+          console.error('Failed to load experiences:', err);
+        }
         setData([]);
       });
 
