@@ -1,63 +1,81 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
-    "skills": [{
-     
-            "title": "Languages & Databases",
-            "items" : [
-     
-                {
-                    "icon": "images/skills/java.png",
-                    "title": "Java"
-                },
-                {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
-                },
-                {
-                    "icon": "images/skills/js.png",
-                    "title": "JavaScript"
-                },
-                {
-                    "icon": "images/skills/python.png",
-                    "title": "Python"
-                },
-                {
-                    "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
-                }
-        ]},
-        {
-            "title": "Frameworks & Technologies",
-            "items" : [
-                {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
-                },
-                {
-                    "icon": "images/skills/react.png",
-                    "title": "React"
-                },
-                {
-                    "icon": "images/skills/nodejs.png",
-                    "title": "Nodejs"
-                }
-            ]
-        },
-        {
-            "title" : "Tools & Platforms",
-            "items": [
-                {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
-                },
-                {
-                    "icon": "images/skills/git.png",
-                    "title": "Git"
-                },
-                {
-                    "icon": "images/skills/docker.png",
-                    "title": "Docker"
-                }
-            ]
+  "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+  "skills": [
+    {
+      "title": "Languages & Databases",
+      "items": [
+        { "icon": "images/skills/js.png", "title": "JavaScript" },
+        { "icon": "images/skills/python.png", "title": "Python" },
+        { "icon": "images/skills/mysql.png", "title": "MySQL" },
+        { "icon": "images/skills/sqlite.png", "title": "SQLite" },
+        { "icon": "images/skills/nedb.png", "title": "NeDB" },
+        { "icon": "images/skills/c-plus-plus.svg", "title": "C++" }
+      ]
+    },
+    {
+      "title": "Frontend Technologies",
+      "items": [
+        { "icon": "images/skills/react.png", "title": "React JS"     },
+        { "icon": "images/skills/nextjs.png", "title": "Next JS" },
+        { "icon": "images/skills/html.png", "title": "HTML" },
+        { "icon": "images/skills/css.png", "title": "CSS" },
+        { "icon": "images/skills/tailwind.png", "title": "Tailwind CSS" },
+        { "icon": "images/skills/mui.png", "title": "Material UI" },
+        { "icon": "images/skills/bootstrap.png", "title": "Bootstrap" },
+        { "icon": "images/skills/redux.png", "title": "Redux" }
+      ]
+    },
+    {
+      "title": "Backend & Server-Side",
+      "items": [
+        { "icon": "images/skills/nodejs.png", "title": "Node JS" },
+        { "icon": "images/skills/express.png", "title": "Express JS" }, 
+        { "icon": "images/skills/mongodb.png", "title": "MongoDB" }
+      ]
+    },
+    {
+      "title": "Containerization & Orchestration",
+      "items": [
+        { "icon": "images/skills/docker.png", "title": "Docker" },
+        { "icon": "images/skills/kubernetes.png", "title": "Kubernetes" }
+      ]
+    },
+    {
+      "title": "Cloud Services",
+      "items": [
+        { "icon": "images/skills/aws.png", "title": "AWS (EC2, S3, IAM)" },
+        { "icon": "images/skills/codepipeline.png", "title": "AWS Code Pipeline" }
+      ]
+    },
+    {
+      "title": "DevOps & CI/CD",
+      "items": [
+        { "icon": "images/skills/jenkins.png", "title": "Jenkins" },
+        { "icon": "images/skills/bash.png", "title": "Bash Scripting" },
+        { "icon": "images/skills/github.png", "title": "GitHub" }
+      ]
+    },
+    {
+      "title": "Monitoring & Logging",
+      "items": [
+        { "icon": "images/skills/prometheus.png", "title": "Prometheus" },
+        { "icon": "images/skills/grafana.png", "title": "Grafana" }
+      ]
+    },
+    {
+      "title": "Operating Systems & Tools",
+      "items": [
+        { "icon": "images/skills/linux.png", "title": "Linux" },
+        { "icon": "images/skills/git.png", "title": "Git" }
+      ]
+    },
+    {
+      "title": "Project Management & Collaboration",
+      "items": [
+        { "icon": "images/skills/jira.png", "title": "Jira" },
+        { "icon": "images/skills/kanban.png", "title": "Kanban" },
+        { "icon": "images/skills/confluence.png", "title": "Confluence" }
+      ]
     }
-]}
+  ]
+}

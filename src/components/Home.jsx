@@ -1,56 +1,57 @@
 import React, { useState, useEffect } from 'react';
 import Typewriter from 'typewriter-effect';
-import Fade from 'react-reveal';
+import { motion } from 'framer-motion';
 import endpoints from '../constants/endpoints';
 import Social from './Social';
 import FallbackSpinner from './FallbackSpinner';
-
-const styles = {
-  nameStyle: {
-    fontSize: '5em',
-  },
-  inlineChild: {
-    display: 'inline-block',
-  },
-  mainContainer: {
-    height: '100%',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-};
 
 function Home() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.home, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
+    const fetchHomeData = async () => {
+      try {
+        const res = await fetch(endpoints.home);
+        const json = await res.json();
+        setData(json);
+      } catch (err) {
+        console.error('Failed to fetch home data:', err);
+      }
+    };
+
+    fetchHomeData();
   }, []);
 
-  return data ? (
-    <Fade>
-      <div style={styles.mainContainer}>
-        <h1 style={styles.nameStyle}>{data?.name}</h1>
-        <div style={{ flexDirection: 'row' }}>
-          <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
+  if (!data) return <FallbackSpinner />;
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 80 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1.2, ease: 'easeInOut' }}
+      className="flex items-center justify-center text-center px-4"
+      style={{ minHeight: 'calc(100vh - 64px)', paddingTop: '150px' }} // adjust if navbar is taller
+    >
+      <div>
+        <h1 className="text-6xl font-bold text-gray-900 dark:text-white">{data.name}</h1>
+
+        <div className="flex text-2xl mt-4 justify-center">
+          <h2 className="mr-2">I&apos;m</h2>
           <Typewriter
             options={{
               loop: true,
               autoStart: true,
-              strings: data?.roles,
+              strings: data.roles,
             }}
           />
         </div>
-        <Social />
+
+        <div className="mt-6">
+          <Social />
+        </div>
       </div>
-    </Fade>
-  ) : <FallbackSpinner />;
+    </motion.div>
+  );
 }
 
 export default Home;

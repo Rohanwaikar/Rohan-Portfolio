@@ -1,33 +1,27 @@
 {
-    "experiences": [
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
-            "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
-            ],
-            "dateText": "06/20XX – Present"
-        },
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
-            "workDescription": [
-                "Worked on abc."
-            ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
-        }
-    ]
+  "experiences": [
+    {
+      "title": "Specialist",
+      "subtitle": "Bristlecone, A Mahindra Group Company",
+      "workType": "Full-time",
+      "workDescription": [
+        "Designed and built scalable, responsive web applications using React.js, Next.js, Node.js, and Express.js, delivering modern UI experiences with server-side rendering (SSR), dynamic routing, and SEO optimization.",
+        "Migrated legacy frontend systems to React, integrating Redux and Context API for efficient state management, achieving up to 30% improvement in load performance.",
+        "Developed complete feature sets including shopping carts, checkout flows, authentication, and user-submitted forms using React Hooks, custom hooks, controlled components, and modular UI architecture.",
+        "Implemented dynamic routing using Next.js App Router, including nested routes, slug-based pages, and shared layouts for consistent navigation and clean structure.",
+        "Utilized server components, client components, and server actions like useFormState, redirect, and revalidatePath to optimize form handling, page rendering, and user flow.",
+        "Developed custom HTTP utilities for RESTful API integration, incorporating centralized error handling and form validation.",
+        "Secured user input and submissions by sanitizing content using XSS protection libraries and rendering rich-text content safely.",
+        "Implemented file uploads using Node.js fs module and persisted structured data with SQLite (better-sqlite3) for lightweight and fast backend storage.",
+        "Designed responsive and accessible UI layouts using Material UI, Tailwind CSS, and Bootstrap 5 to ensure consistent cross-device experiences.",
+        "Followed best practices for clean component architecture, event handling, localStorage integration, and conditional rendering to ensure robust and maintainable code.",
+        "Used tools like Git, Jira, Jenkins, and VS Code for source control, issue tracking, CI/CD, and team collaboration.",
+        "Participated in Agile delivery processes through daily stand-ups and task breakdowns, contributing to a 20% increase in team velocity.",
+        "Deployed applications on Kubernetes clusters using kubectl, managing pods, services, secrets, config maps, and rolling updates.",
+        "Debugged container issues, optimized resource utilization, and assisted with cluster upgrades and scalability tasks.",
+        "Leveraged AWS services like EC2, S3, and IAM to support hosting, file storage, and cloud-based deployments as part of project delivery and infrastructure requirements."
+      ],
+      "dateText": "4.10 years"
+    }
+  ]
 }

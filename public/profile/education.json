@@ -1,19 +1,19 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "August 2016 - August 2019",
+            "cardTitle": "Bachelors in Computer Engineering",
+            "cardSubtitle":"Sinhgad Institute of Technology, Lonavala",
+            "cardDetailedText": "",
             "icon" : {
                 "src": "images/education/lorem-ipsum.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "August 2013 - August 2016",
+            "cardTitle": "Diploma in Computer Engineering",
+            "cardSubtitle":"Padmashree DY Patil Polytechnic, Akurdi",
+            "cardDetailedText": ""
         }
     ]
 }
