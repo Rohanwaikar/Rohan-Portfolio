@@ -38,7 +38,7 @@
             ]
         },
         {
-            "image" : "images/projects/my_portfolio.png",
+            "image" : "images/projects/Food-ordering-website.png",
             "title": "Food Ordering Website",
             "bodyText": "- Food Ordering Website made in React\n - Add items to cart and place orders",
             "links": [
