@@ -7,7 +7,7 @@
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/Rohanwaikar"
+                    "href": "https://github.com/Rohanwaikar/Rohan-Portfolio"
                 },
                 {
                     "text": "Live",
@@ -17,6 +17,42 @@
             "tags" : [
                 "React",
                 "Portfolio",
+                "JavaScript"
+            ]
+        },
+        {
+            "image" : "images/projects/LLM.png",
+            "title": "PDF-based-LLM-chatbot",
+            "bodyText": "- PDF-based chatbot using LLMs\n -  Built with React and Flask\n -  Upload PDF files and chat with the content",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Rohanwaikar/PDF-based-LLM-chatbot-"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Flask",
+                "LLM",
+                "Chatbot"
+            ]
+        },
+        {
+            "image" : "images/projects/my_portfolio.png",
+            "title": "Food Ordering Website",
+            "bodyText": "- Food Ordering Website made in React\n - Add items to cart and place orders",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Rohanwaikar/Food-ordering-website"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://react-food-ordering-website.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "React",
                 "JavaScript"
             ]
         }
