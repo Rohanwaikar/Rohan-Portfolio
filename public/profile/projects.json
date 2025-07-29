@@ -98,6 +98,25 @@
                 "Express JS",
                 "Material UI"
             ]
+        },
+        {
+            "image" : "images/projects/Foodies-app.png",
+            "title": "Foodies App",
+            "bodyText": "- Full stack Food receipe sharing app made in Next JS\n - Share and discover food recipes\n - User authentication and profile management",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Rohanwaikar/Foodies-app"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://foodies-app-lshy.onrender.com/"
+                }
+            ],
+            "tags" : [
+                "Next JS",
+                "Better-sqlite 3"
+            ]
         }
     ]
 }
