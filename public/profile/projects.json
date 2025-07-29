@@ -17,7 +17,8 @@
             "tags" : [
                 "React",
                 "Portfolio",
-                "JavaScript"
+                "JavaScript",
+                "Tailwind CSS"
             ]
         },
         {
@@ -75,6 +76,27 @@
                 "React",
                 "JavaScript",
                 "Express JS"
+            ]
+        },
+        {
+            "image" : "images/projects/agritourism.png",
+            "title": "Qkart E-commerce Website",
+            "bodyText": "- E-commerce website made in React\n - Browse and purchase products\n - User authentication and payment integration",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Rohanwaikar/Qkart-Website"
+                },
+                {
+                    "text": "Live",
+                    "href": "qkart-website-live.netlify.app"
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript",
+                "Express JS",
+                "Material UI"
             ]
         }
     ]
