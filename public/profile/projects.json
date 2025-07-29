@@ -79,7 +79,7 @@
             ]
         },
         {
-            "image" : "images/projects/agritourism.png",
+            "image" : "images/projects/Qkart.png",
             "title": "Qkart E-commerce Website",
             "bodyText": "- E-commerce website made in React\n - Browse and purchase products\n - User authentication and payment integration",
             "links": [
