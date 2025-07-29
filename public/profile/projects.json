@@ -53,7 +53,28 @@
             ],
             "tags" : [
                 "React",
-                "JavaScript"
+                "JavaScript",
+                "Express JS"
+            ]
+        },
+        {
+            "image" : "images/projects/agritourism.png",
+            "title": "Shinobi Lakeview Agri-tourism Web page",
+            "bodyText": "- Simple Agri-tourism web page made in React\n - Explore the beauty of Shinobi Lakeview\n - Book your stay and enjoy nature",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Rohanwaikar/Gurukul-website-1"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://shinobi-lakeview-retreat.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript",
+                "Express JS"
             ]
         }
     ]
