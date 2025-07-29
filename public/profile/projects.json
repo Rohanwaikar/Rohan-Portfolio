@@ -102,7 +102,7 @@
         {
             "image" : "images/projects/Foodies-app.png",
             "title": "Foodies App",
-            "bodyText": "- Full stack Food receipe sharing app made in Next JS\n - Share and discover food recipes\n - User authentication and profile management",
+            "bodyText": "- Full stack Food receipe sharing app made in Next JS\n - Share and discover food recipes",
             "links": [
                 {
                     "text": "GitHub",
@@ -115,7 +115,27 @@
             ],
             "tags" : [
                 "Next JS",
-                "Better-sqlite 3"
+                "Better-sqlite 3",
+                "JavaScript"
+            ]
+        },
+         {
+            "image" : "images/projects/Foodies-app.png",
+            "title": "NextJS News App",
+            "bodyText": "- Full stack news application built with Next.js\n - Read and share news articles ",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Rohanwaikar/NextJs-News-App"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://nextjs-news-app.onrender.com/"
+                }
+            ],
+            "tags" : [
+                "Next JS",
+                "JavaScript"
             ]
         }
     ]
