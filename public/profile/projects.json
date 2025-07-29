@@ -73,7 +73,7 @@
                 }
             ],
             "tags" : [
-                "React",
+                "React JS",
                 "JavaScript",
                 "Express JS"
             ]
@@ -93,7 +93,7 @@
                 }
             ],
             "tags" : [
-                "React",
+                "React JS",
                 "JavaScript",
                 "Express JS",
                 "Material UI"
@@ -120,7 +120,7 @@
             ]
         },
          {
-            "image" : "images/projects/Foodies-app.png",
+            "image" : "images/projects/News-app.png",
             "title": "NextJS News App",
             "bodyText": "- Full stack news application built with Next.js\n - Read and share news articles ",
             "links": [
